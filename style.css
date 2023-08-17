@@ -1,0 +1,268 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+   
+}
+
+body{
+    background: rgba(27, 27, 56, 70.952);
+    margin: 0px;
+    padding: 0px;
+    /*display: flex;
+    align-items: ;*/
+}
+
+/* contenedor dell button que esta en el nav */
+.contedor-btn  a { 
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.15em;
+}
+.contedor-btn button {
+    background: rgb(214, 84, 36);
+    border: none;
+   
+}
+.contedor-btn button:hover{
+    background: rgb(229, 100, 54);
+}
+/*Termina Aqui*/
+
+img{
+   align-self: center;
+   object-fit: contain;
+   height: auto;
+    
+}
+/*//Final de estilo//*/
+
+
+/* //About me estilo al contenido Empieza aqui //*/
+.contenido{
+    background: rgb(238, 233, 232);
+}
+.contenido-img img{
+    width: 100%;
+    max-width: 400px;
+    padding: 5px;
+    -webkit-box-shadow: -14px -6px 28px -4px rgba(235,174,127,1);
+    -moz-box-shadow: -14px -6px 28px -4px rgba(235,174,127,1);
+    box-shadow: -14px -6px 28px -4px rgba(235,174,127,1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.contenido h1 {
+  color:#000;
+  font-weight: 600;
+  padding: 5px;
+ 
+}
+
+.contenido p{
+  color: #000; 
+  font-size: 1.20rem; 
+  display: flex;
+  
+}
+.about h1{
+    color:  rgb(225, 105, 61);
+}
+/* //About me estilo al contenido Terimana aqui/// */
+
+
+/*//Estilo a la descrición Empieza Aqui //*/
+.descricion{
+    margin-top: 5px;
+    padding: 10px;
+    color: #fff;
+}
+
+.descricion h2 {
+    text-decoration: underline;
+    font-size: 2rem;
+    padding: 5px;
+    font-weight: 600;
+}
+.descricion p {
+    font-size: 1.20rem;
+}
+/*//Estilo a la descrición Termina Aqui //*/
+
+
+/*//Estilo al componente que esta en el Area de Proyecto  Empieza Aqui //*/
+/*con esta linea le damos estilo a los h2 */
+.proyecto h2, .habilidad h2, .contacto h2{
+   color: #fff;
+   cursor: pointer;
+   padding: 6px;
+   text-align: center;
+   width: 200px;
+   font-weight: 900;
+   background: rgb(229, 100, 54);
+   border-left: 3px solid #000;
+   border-bottom: 3px solid #000;
+   border-radius: 4px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   -ms-border-radius: 4px;
+   -o-border-radius: 4px;
+}
+.proyecto p{
+    color: rgb(176, 5, 5);
+}
+
+.proyecto h2:hover{
+    background: rgb(229, 100, 54);
+}
+.card-body a{
+    text-decoration: none;
+     color: rgb(214, 84, 36);
+}
+/*//Estilo al componente que esta en el Area de Proyecto  Termina Aqui //*/
+
+
+
+/*/// Estilo para el area de Havilidades Empieza Aqui ///*/
+/*.havilidad  {
+  background-color: rgb(238, 233, 232);
+
+
+}*/
+/*/// Estilo para el area de Havilidades Empieza Aqui ///*/
+.habilidad{
+    background-color: rgb(238, 233, 232);
+  
+}
+/*
+.havilidad h2{
+    color: #fff;
+    padding: 6px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    font-weight: 900;
+    background-color:rgb(214, 84, 36) ;
+    border-left: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+     -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+   
+}*/
+.habilidad h2:hover{
+    background: rgb(229, 100, 54);
+}
+.habilidad ul li{
+    list-style: none;
+    padding: 5px;
+    margin:5px;
+    margin-top: 10px;
+
+}
+.habilidad ul li i {
+    font-size: 1.10rem;
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 800;
+    color: #000;
+    border: 4px solid rgb(230, 134, 99);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.habilidad ul li i:hover {
+    background: rgb(229, 100, 54);
+}
+/*estilo para habilidades termina aqui */
+
+/*estilo de Hobbies  empieza aqui*/
+.container-hobbies{
+    background-color: rgb(238, 233, 232);
+}
+
+.container-hobbies_ul{
+    margin-bottom: 20px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container-hobbies_ul li{
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.20em;
+}
+.container-hobbies_ul li i{
+    color:rgb(230, 134, 99) ;
+    margin-right: 6px;
+    font-size: 1.30em;
+}
+
+/*estilo de Hobbies  termina aqui*/
+
+/*estilo para contacto empieza aui */
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    padding: 10px;
+    
+}
+.contacto form button {
+    color: #fdfcfc;
+    letter-spacing: 2px;
+    border: none;
+    padding: 6px;
+    text-align: center;
+    font-size: 1.20em;
+    width: 200px;
+    font-weight: 900;
+    background: rgb(229, 100, 54);
+    border-left: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;  
+}
+textarea{
+    resize: none;
+}
+/*estilo para contacto Termina Aqui */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+footer p {
+    color:rgb(135, 130, 128) ;
+}
+footer .redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes a{
+    text-decoration: none;
+}
+.redes i {
+    margin: 6px;
+    font-size: 1.50em;
+    color:  rgb(233, 139, 105);
+}
