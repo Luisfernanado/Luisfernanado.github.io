@@ -13,7 +13,13 @@ body{
     /*display: flex;
     align-items: ;*/
 }
-
+/*estilo menu empieza aqui */
+.navbar-nav li a{
+    font-size: 1.28em;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
 /* contenedor dell button que esta en el nav */
 .contedor-btn  a { 
     color: #fff;
